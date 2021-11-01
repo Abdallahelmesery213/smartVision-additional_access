@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77.712" height="22.039" viewBox="0 0 77.712 22.039">
+  <g id="Group_185" data-name="Group 185" transform="translate(0.5 0.5)">
+    <text id="admin" transform="translate(39.212 16.5)" fill="#2f2e96" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Admin</tspan></text>
+    <path id="Icon_awesome-user-alt" data-name="Icon awesome-user-alt" d="M10.317,11.834a5.863,5.863,0,0,0,5.8-5.917A5.863,5.863,0,0,0,10.317,0a5.863,5.863,0,0,0-5.8,5.917A5.863,5.863,0,0,0,10.317,11.834Zm5.159,1.315H13.255a6.893,6.893,0,0,1-5.876,0H5.159A5.21,5.21,0,0,0,0,18.409v.657a1.954,1.954,0,0,0,1.934,1.972H18.7a1.954,1.954,0,0,0,1.934-1.972v-.657A5.21,5.21,0,0,0,15.476,13.149Z" transform="translate(0 0)" fill="none" stroke="#2f2e96" stroke-width="1"/>
+  </g>
+</svg>

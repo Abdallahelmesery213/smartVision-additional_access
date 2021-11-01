@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />  
+
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <!-- start slides -->
+  <div class="slides">
+      <div class="overlay"></div>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="mask-top">
+          <div class="container nav-list">
+            <div class="row nav1">
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <img src="../images/icons/Icon awesome-instagram.svg" />
+                  </li>
+                  <li class="list-inline-item">
+                    <img src="../images/icons/Icon feather-twitter.svg" />
+                  </li>
+                  <li class="list-inline-item">
+                    <img src="../images/icons/Icon simple-snapchat.svg" />
+                  </li>
+                  <li class="list-inline-item">
+                    <img src="../images/icons/Icon awesome-whatsapp.svg" />
+                  </li>
+                  <li class="list-inline-item"><span class="en">EN</span></li>
+                </ul>
+              </div>
+              <div class="col-9 text-end">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <span
+                      >info@thimpress.com
+                      <img
+                        class="ms-2"
+                        src="../images/icons/Icon feather-mail.svg"
+                    /></span>
+                  </li>
+                  <li class="list-inline-item">
+                    <span
+                      >المملكة العربية السعودية
+                      <img
+                        class="ms-2"
+                        src="../images/icons/Icon feather-map-pin.svg"
+                    /></span>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <span
+                      >920004785
+                      <img
+                        class="ms-2"
+                        src="../images/icons/Icon feather-phone-call.svg"
+                    /></span>
+                  </li>
+                  <li class="list-inline-item">
+                    <span>هل لديك اى سؤال ؟ </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="container">
+            <div class="row nav2">
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li class="list-inline-item">Abdallah Nasef &nbsp; <i class="fas fa-chevron-down" style="color: #fff;"></i></li>
+                  <li class="list-inline-item">
+                    <img src="../images/icons/Group 410.svg" class="ms-2" />
+                  </li>
+                </ul>
+              </div>
+              <div class="col-9">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <img src="../images/icons/search.svg" />
+                  </li>
+                  <li class="list-inline-item">تواصل معنا</li>
+                  <li class="list-inline-item">التوظيف</li>
+                  <li class="list-inline-item" style="color: #fff;">المدونة <div class="main"></div></li>
+                  <li class="list-inline-item" >المدربين </li>
+                  <li class="list-inline-item">
+                      الدورات
+                  </li>
+                  <li class="list-inline-item" >من نحن</li>
+                  <li class="list-inline-item"> <a href="../home.html" style="text-decoration: none;color: #ddd; "> الرئيسية </a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/blog.PNG" class="d-block w-100" alt="img1" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="main-slide">
+                <p class="h2">شرح طريقة التسجيل بالموقع </p>
+                <p class="h2">وشراء دورة والذهاب للدورة الآون لاين</p>
+                <div>
+                    <p class="row mt-4 text-center" style="color: #ddd;font-size: 15px;">
+                        <span class="col text-end">
+                            ‏17 تعليق<img src="../images/help.png" class="ms-2">
+                        </span>
+                        <span class="col text-start">
+                            15/7/2019<img src="../images/calendar-with-a-clock-time-tools.png" class="ms-2">
+                        </span>
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end slides -->
+    
+    <!-- start blog-main -->
+    <div class="blog-main mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" dir="rtl">
+                    <div class="search mb-5">
+                        <label class="form-label" for="searchInput"> البحث</label>
+                        <div class="par-search">
+                            <input type="search" class="form-control" id="searchInput" dir="rtl">
+                            <i class="fas fa-search text-end"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="articles mb-4">
+                        <div class="borderh3">
+                            <h3>مقالات مشابهه</h3>
+                        </div>
+                        
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="row section">
+                            <div class="col-md-4">
+                                <img src="../images/similar-article.png" alt=" sim-artic" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p>شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</p>
+                                <button class="btn">التفاصيل</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="words">
+                        <div class="borderh3">
+                            <h3>الكلمات الدلالية</h3>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <span>
+                                    <a>تعليم اون لاين</a>
+                                </span>
+                                
+                            </div>
+                            <div class="col-6">
+                                <span>
+                                    <a>برامج محاسبية</a>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <span>
+                                    <a>تعليم مباشر</a>
+                                </span>
+                            </div>
+                            <div class="col-6">
+                                <span>
+                                    <a>برامج تدريب</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <span>
+                                    <a>كورسات</a>
+                                </span>
+                            </div>
+                            <div class="col-6">
+                                <span>
+                                    <a>تدريب</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="overlay-adv mt-4 d-flex align-items-center justify-content-evenly">
+                        <div class="overlay"></div>
+                        <div class="txtOverlay text-center ">
+                            <h5 style="font-size: 20px;" class="pb-4">نص الإعلان يكتب هنا</h5>
+                            <p style="font-size: 15px; color: #ddd; line-height: 2;" >هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</p>
+                            <span style="font-size: 20px;">400*370</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-8" dir="rtl">
+                    <div class="borderh3">
+                        <h3 style="color: #232323;"> شرح طريقة التسجيل بالموقع وشراء دورة والذهاب للدورة الآون لاين</h3>
+                    </div>
+                    <div>
+                        <span class="me-4 ms-4">
+                            <img src="../images/icons/Group 185.svg" class="img-fluid">
+                        </span>
+                        <span class="me-4 ms-4">
+                            <span style="color: #2F2E96; font-size: 13px;"> 17 </span> 
+                            <img src="../images/icons/help.svg" class="me-3 img-fluid"> 
+                        </span>
+                        <span class="me-4 ms-4">
+                            <span style="color: #2F2E96; font-size: 13px;">15/7/2019</span>
+                            <img src="../images/icons/calendar-with-a-clock-time-tools.svg" class="me-3 img-fluid">
+                        </span>
+                    </div>
+                    <div class="row mt-4">
+                        <img src="../images/blog.PNG" class="img-fluid" alt="img-blo">
+                    </div>
+                    <div class="row mt-4">
+                        <p style="color: #6D6D6D; font-size: 15px; line-height: 2.4;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</p>
+                    </div>
+                    <div style="position: relative; padding: 10px; margin-top: 30px; margin-bottom: 30px;">
+                        <div class="prag2">
+                            <div class="row">
+                                <span class="col-6 text-end"><i class="fas fa-shoe-prints"></i></span>
+                                <span class=" col-6 text-start"><i class="fas fa-shoe-prints"></i></span>
+                            </div>
+                            
+                            <p>ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</p>
+    
+                            <div class="writer">
+                                <p style="margin-right: 60px;">اسم صاحب المقولة</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="row prag3">
+                        <h4>عنوان جديد يكتب هنا كاملا</h4>
+                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</p>
+                    </div> 
+                    <div class="row styleList" style="position: relative;">
+                        <p>هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</p>
+                    </div>
+                    <div class="row styleList" style="position: relative;">
+                        <p>هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق </p>
+                    </div>
+                    <div class="row styleList" style="position: relative;">
+                        <p>هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو </p>
+                    </div>
+                    <div class="row styleList" style="position: relative;">
+                        <p>لعميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
+                    </div>
+                    <div class="row styleList" style="position: relative;">
+                        <p>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد</p>
+                    </div>
+
+                    <div class="row mb-4">
+                        <img src="../images/blog-row4.PNG" class="img-fluid">
+                    </div>
+                    <div class="row">
+                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</p>
+                    </div>
+
+                    <div class="row comments">
+                        <div class="borderh3">
+                            <h3>اخر التعليقات</h3>
+                        </div>
+                    </div>
+                    <div class="sectionComment">
+                        <div class="row d-flex align-items-center mb-4" >
+                            <div class="col-6 text-end">
+                                <img src="../images/Ellipse 132.png" class="img-fluid ms-2">
+                                <span style="font-size: 15px; color: #8A8A8A;">محمد ابراهيم</span>
+                            </div>
+                            <div class="col-6 text-start">
+                                <p style="color: #B1B1B1; font-size: 12px;"> الخميس 25/7/2019</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p style="color: #B1B1B1; font-size: 15px; line-height: 1.9;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                        </div>
+                    </div>
+                    <div class="sectionComment mt-5 mb-5">
+                        <div class="row d-flex align-items-center mb-4" >
+                            <div class="col-6 text-end">
+                                <img src="../images/Ellipse 132.png" class="img-fluid ms-2">
+                                <span style="font-size: 15px; color: #8A8A8A;">محمد ابراهيم</span>
+                            </div>
+                            <div class="col-6 text-start">
+                                <p style="color: #B1B1B1; font-size: 12px;"> الخميس 25/7/2019</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p style="color: #B1B1B1; font-size: 15px; line-height: 1.9;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                        </div>
+                    </div>
+                    <div class="sectionComment mb-5">
+                        <div class="row d-flex align-items-center mb-4" >
+                            <div class="col-6 text-end">
+                                <img src="../images/Ellipse 132.png" class="img-fluid ms-2">
+                                <span style="font-size: 15px; color: #8A8A8A;">محمد ابراهيم</span>
+                            </div>
+                            <div class="col-6 text-start">
+                                <p style="color: #B1B1B1; font-size: 12px;"> الخميس 25/7/2019</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p style="color: #B1B1B1; font-size: 15px; line-height: 1.9;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                        </div>
+                    </div>
+
+                    <div class="form mb-5">
+                        <div class="borderh3">
+                            <h3>اترك تعليقا</h3>
+                        </div>
+                        <p style="font-size: 15px; color: #6D6D6D; margin-bottom: 20px;">لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة محددة*</p>
+                        <div class="row mt-3 mb-3" style="font-size: 15px; color: #6D6D6D;">
+                            <div class="col-md-6">
+                                <label for="name1" class="form-label">الاسم*</label>
+                                <input type="text" id="name1" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">البريد الالكترونى*</label>
+                                <input type="email" id="email1" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-4" style="font-size: 15px; color: #6D6D6D;">
+                            <label class="form-label" for="textarea1">التعليق</label>
+                            <textarea class="form-control" id="textarea1" rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn ">ارسال</button>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end blog-main -->
+
+    <!-- start arr-footer -->
+    <div>
+        <div class="icon-footer text-center" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></div>
+        <div class="arr-footer">
+            <div class="container">
+                <div class="row p-5" style="width: 100%;" dir="rtl">
+                    <div class="col-4 text-end">
+                        <h5>تعرف علينا</h5>
+                        <div class="line"></div>
+                        <p class="prag">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                    </div>
+                    <div class="col-2 text-end">
+                        <h5>اقسام الموقع</h5>
+                        <div class="line"></div>
+                            <p >الرئيسية</p>
+                            <p>من نحن</p>
+                            <p>الدورات</p>
+                            <p>المدربون</p>
+                            <p style="color: #15AC8B;">المدونة</p>
+                            <p>اتصل بنا</p>
+                    </div>
+                    <div class="col-2 text-end">
+                        <h5>روابط هامة</h5>
+                        <div class="line"></div>
+                        
+                            <p>الأسئلة الشائعة</p>
+                            <p>شروط الاستخدام</p>
+                            <p>القائمة السوداء</p>
+                            <p>وظائف</p>
+                        
+                    </div>
+                    <div class="col-4 text-end">
+                        <h5>تواصل معنا</h5>
+                        <div class="line"></div>
+                        <!-- <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                            </div>
+                          </div> -->
+                        <div class="buttonIn">
+                            <button id="clear" class="btn">اشترك</button>
+                            <input type="email" id="enter" placeholder="اكتب بريدك الالكترونى">
+                            <img src="../images/email.svg" />
+                        </div>
+                          <div class="social">
+                                <span class="face ms-4"><img src="../images/icons/facebook.svg" class="img-fluid"></span >
+                                <span class="icon ms-4"><img src="../images/icons/twitter.svg" class="img-fluid"></span >
+                                <span class="icon ms-4"><img src="../images/icons/Icon awesome-instagram.svg" class="img-fluid"></span >
+                                <span  class="icon ms-4"><img src="../images/icons/twitter.svg" class="img-fluid"></span >
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- end arr-footer -->
+
+    <footer>
+        <div class="container">
+            <div class=" row">
+                <div class="col text-start">
+                    <p>تصميم وبرمجه سمارت فيجن</p>
+                </div>
+                <div class="col text-end">
+                    <p>جميع الحقوق محفوظة لموقع الوصول الاضافى</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
