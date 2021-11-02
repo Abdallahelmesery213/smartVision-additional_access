@@ -26,4 +26,6 @@ var swiper = new Swiper(".mySwiper", {
   closeBtn.addEventListener("click", function(){
     rateOverlay.classList.toggle("show-overlay");
   })
+
+  
   
