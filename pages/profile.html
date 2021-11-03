@@ -190,11 +190,11 @@
         <div class="change">
             <div class="container">
                 <div class="row row1">
-                    <div class="col-7 text-end"><h6>تغيير عنوان البريد الإلكتروني الخاص بك</h6></div>
-                    <div class="col-5 text-end btn" id="closeEmail"><i class="fas fa-times"></i></div>
+                    <div class="col-10 text-end"><h6>تغيير عنوان البريد الإلكتروني الخاص بك</h6></div>
+                    <div class="col-2 text-end btn" id="closeEmail"><i class="fas fa-times"></i></div>
                 </div>
                 <div class="row row2">
-                    <p>اذا كنت تريد تغيير الإسم الخاص بك سوف يمكنك عمل ذلك أدناة تاكد من الضغط على زر حفظ التغييرات عند الانتهاء.</p>
+                    <p>أدخل عنوان البريد الإلكتروني الجديد الذي ترغب في ربطه بحسابك أدناه . سنرسل كلمة مرور لمرة واحدة إلى هذا العنوان</p>
                 </div>
     
                 <div class="row row3" dir="rtl">
@@ -215,21 +215,23 @@
             
         </div>
     </div>
-    <!-- <div class="overlay-profile" id="overlay-phone">
+    
+    <div class="overlay-profile" id="overlay-phone">
         <div class="change">
             <div class="container">
                 <div class="row row1">
-                    <div class="col-7 text-end"><h6>تغيير رقم الهاتف الجوال</h6></div>
-                    <div class="col-5 text-end btn" id="closePhone"><i class="fas fa-times"></i></div>
+                    <div class="col-11 text-center"><h6>تغيير رقم الهاتف الجوال</h6></div>
+                    <div class="col-1 text-end btn" id="closePhone"><i class="fas fa-times"></i></div>
                 </div>
                 <div class="row row2">
-                    <p>رقم الهاتف الجوال القديم 0100670297</p>
+                    <p>رقم الهاتف الجوال القديم </p>
+                    <div class="mt-0 text-center" style="color: #6D6D6D;font-size: 15px;"> 0100670297</div>
                 </div>
     
-                <div class="row row3" dir="rtl">
+                <div class="row row3 " dir="rtl">
                     <div class="col">
-                        <label for="InputEmail" class="form-label">البريد الالكترونى الجديد</label>
-                        <input type="text" class="form-control" id="InputEmail" placeholder="رقم الهاتف الجوال القديم 0100670297">
+                        <label for="InputPhone" class="form-label">رقم الجوال الجديد</label>
+                        <input type="text" class="form-control" id="InputPhone" placeholder="رقم الهاتف الجوال القديم 0100670297">
                     </div>
                     
                 </div>
@@ -240,10 +242,81 @@
                     
                 </div>
             </div>
-            
-            
         </div>
-    </div> -->
+    </div>
+
+    <div class="overlay-profile" id="overlay-pass">
+        <div class="change">
+            <div class="container">
+                <div class="row row1">
+                    <div class="col-11 text-center"><h6>تغيير كلمة السر</h6></div>
+                    <div class="col-1 text-end btn" id="closePass"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="row row2">
+                    <p>استخدم النموذج أدناه لتغيير كلمة سر حسابك </p>
+                </div>
+    
+                <div class="row row3 " dir="rtl">
+                    <div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label">كلمة السر الحالية</label>
+                            </div>
+                        </div>
+                        <div class="row showPass">
+                            <div class="col-11">
+                                <input type="password"  id="pass1" >
+                            </div>
+                            <div class="col-1">
+                                <i class="far fa-eye-slash" onclick="myFunction()" style="color: #8D8D8D;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label">كلمة السر الحالية</label>
+                            </div>
+                        </div>
+                        <div class="row showPass">
+                            <div class="col-11">
+                                <input type="password"  id="pass2" >
+                            </div>
+                            <div class="col-1">
+                                <i class="far fa-eye-slash" onclick="myFunction2()" style="color: #8D8D8D;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label">كلمة السر الحالية</label>
+                            </div>
+                        </div>
+                        <div class="row showPass">
+                            <div class="col-11">
+                                <input type="password"  id="pass3" >
+                            </div>
+                            <div class="col-1">
+                                <i class="far fa-eye-slash" onclick="myFunction3()" style="color: #8D8D8D;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                        
+                </div>
+                   
+            </div>
+                <div class="row row4">
+                    <div class="col text-center d-inline">
+                        <button class="btn btn-primary" >حفظ التغيرات</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="profile mb-5">
         <div class="container">
@@ -284,19 +357,294 @@
                             <hr style="border: 1px solid #E9E9E9;">
                             <div class="row">
                                 <div class="col-6 text-start">
-                                    <button class="btn">تعديل</button>
+                                    <button class="btn" id="changePass">تعديل</button>
                                 </div>
                                 <div class="col-5 text-end">
                                     <h6>كلمة المرور  </h6>
                                     <p> ***********</p>
                                 </div>
                             </div>
-                            
                         </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Profile</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Messages</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Settings</div>
-                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab2">Settings2</div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="row mt-5">
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0; display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    <div class="row" style="color: #232323;">
+                                        <div class="col-9 text-end" >
+                                            <h6 style="font-size: 12px; line-height: 1.9;">النسخة الرابعة : دورة التدقيق والمراجعة المحاسبية عبر برنامج الاكسل</h6>
+
+                                            <div class="row">
+                                                <div class="col-6 text-end" style="font-size: 12px;">
+                                                    9/9/2021
+                                                    <i class="far fa-calendar-alt ms-1" style="color: #2F2E96;"></i>
+                                                </div>
+                                                <div class="col-6" style="font-size: 10px;">د.خالد بن فوزان الفهد</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <div style="width: 100%; height: 100%; inset: 0;display: flex;">
+                                                <img src="../images/prof-fav.PNG" class="img-fluid" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="row">
+                                <div class="col-12 text-end">
+                                    <img class="img-fluid" src="../images/certificates.PNG">
+                                </div>
+                            </div>
+                        </div>
+                        
                       </div>
                 </div>
 
@@ -370,7 +718,9 @@
                                 <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill" data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2" aria-selected="false">
                                     <div class="row text-end">
                                         <div class="col-10 ">
-                                            تسجيل خروج
+                                            <a href="../home.html" style="text-decoration: none; color: #C2C2C2;" >
+                                                تسجيل خروج
+                                            </a>
                                         </div>
                                         <div class="col-2 text-start ">
                                             <i class="fas fa-sign-out-alt"></i>
