@@ -7,6 +7,7 @@
   font-family: droidRegular;
   src: url(../fonts/DroidKufi-Regular\ \(1\).ttf);
 }
+
 body{
   font-family: droidRegular;
 
@@ -26,7 +27,7 @@ body{
 }
 .slides{
   width: 100%;
-  height: 697px;
+  /* height: 697px; */
   position: relative;
   margin-bottom: 50px;
   clip-path: ellipse(118% 100% at center top);
@@ -48,16 +49,58 @@ body{
   position: sticky;
   margin-bottom: 30%;
 }
-/* @media only screen and (min-width: 992px) {
+@media only screen and (max-width: 1204px) {
+  .slides .main-slide .h2{
+    font-size: 25px !important;
+  }
+  .slides .main-slide p {
+    font-size: 15px;
+    }
   .slides .main-slide{
-    margin-bottom: 30%;
+      margin-bottom: 12%;
   }
 }
-@media only screen and (min-width: 768px) {
-  .slides .main-slide{
-    margin-bottom: -4%;
-  }
-} */
+@media only screen and (max-width: 972px) {
+    .slides .main-slide .h2{
+        font-size: 23px !important;
+      }
+      .slides .main-slide p {
+        font-size: 13px;
+        }
+      .slides .main-slide{
+          margin-bottom: 8%;
+      }
+}
+@media only screen and (max-width: 972px) {
+    .slides .main-slide .h2{
+        font-size: 20px !important;
+      }
+      .slides .main-slide p {
+        font-size: 11px;
+        }
+    .slides .main-slide{
+        margin-bottom: 4%;
+    }
+}
+@media only screen and (max-width: 862px) {
+    .slides .main-slide{
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .slides .main-slide{
+        margin-bottom: 1%;
+    }
+}
+@media only screen and (max-width: 822px) {
+    .slides .main-slide{
+        margin-bottom: 0%;
+    }
+}
+.img-car{
+    width: 100%;
+    height: 100%;
+}
 .slides .main-slide .h2{
   font-size: 30px;
   font-family:droidRegular ;
@@ -149,11 +192,11 @@ z-index: 7;
 width: 18px !important;
     height: 18px !important;
 }
-/* .slides .carousel-indicators .active{
-  background-color: #15AC8B;
-} */
+.slides .carousel-indicators .active{
+  background-color: #15AC8B !important;
+}
 .carousel-indicators .gren{
-  background-color: #15AC8B;
+  
   margin: -7px 10px 0 10px;
 }
 .nav2 li{
@@ -188,6 +231,14 @@ width: 18px !important;
 /* start we here */
 .we-here {
   margin-bottom: 50px;
+}
+@media only screen and (max-width: 992px) {
+    .we-here .img-path{
+        display: none;
+    }
+    .we-here .numbers{
+        display: none;
+    }
 }
 .we-here .h3{
   font-size: 25px;
@@ -885,10 +936,12 @@ footer{
   font-size: 15px;
   display: flex;
   position: relative;
-  
 }
 footer p {
-  
   margin-top: 2%;
 }
+
+/* media query */
+
+
 

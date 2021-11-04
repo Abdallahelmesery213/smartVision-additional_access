@@ -53,3 +53,15 @@ activeButt.addEventListener("click" , function(){
 })
 
 
+// To Show Password in login Page
+function showPass(){
+  let show = document.getElementById("show-pass");
+  if (show.type==="password"){
+    show.type="text";
+  }
+  else {
+    show.type="password";
+  }
+}
+
+

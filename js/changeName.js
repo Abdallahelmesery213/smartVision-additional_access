@@ -48,7 +48,7 @@ closePassBtn.addEventListener("click" , function(){
     overlayPass.classList.toggle("show-change");
 });
 
-// for checkPass
+// for showing Password
 function myFunction() {
     var x = document.getElementById("pass1");
     if (x.type === "password") {

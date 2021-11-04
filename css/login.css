@@ -204,6 +204,11 @@
       width: 92%;
       height: 40px;
   }
+  .register .right i {
+    color: #C2C2C2;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
   .register .left p{
       font-size: 15px;
       color: #0049A0;

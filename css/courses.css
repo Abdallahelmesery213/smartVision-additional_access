@@ -10,6 +10,30 @@
     font-family: droidRegular;
   
   }
+  .slides .nav2 .dropdown-toggle::after{
+    margin-left: 7px !important;
+}
+  .slides .nav2 .dropdown-menu.show{
+      border-radius: 19px;
+      padding: 13px;
+  }
+
+  .slides .nav2 .my-count::before{
+      inset: 0;
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 25px;
+      background-color: #15AC8B;
+      left: 154px;
+      top: 16px;
+      border-radius: 22px;
+  }
+  .slides .nav2 .dropdown-menu li a:hover {
+      background-color: #fff !important; 
+      border: none !important;
+      outline: none !important;
+  }
   .slides .carousel-indicators{
     bottom: 5%;
   }
