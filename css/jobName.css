@@ -50,7 +50,7 @@
   }
   .slides{
     width: 100%;
-    height: 697px;
+    
     position: relative;
     margin-bottom: 50px;
     clip-path: ellipse(118% 100% at center top);
