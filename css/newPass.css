@@ -166,29 +166,29 @@
   }
   /* end slides */
 
-  /* start register */
-  .register .enter{
+  /* start newPass */
+  .newPass .enter{
     background: transparent linear-gradient(105deg, #22216D 0%, var(--unnamed-color-15ac8b) 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(105deg, #22216D 0%, #15AC8B 100%) 0% 0% no-repeat padding-box;
     color: #fff;
   }
-  .register .btn{
+  .newPass .btn{
     border-radius: 23px;
     font-size: 15px;
     padding: 10px 40px;
   }
-  .register .new{
+  .newPass .new{
       color: #CECECE;
       border: 1px solid #CECECE;
   }
-  .register .buttonIn{
+  .newPass .buttonIn{
       position: relative;
       width: 100%;
       height: 45px;
       border: 1px solid #E5E5E5;
       border-radius: 10px;
   }
-  .register .left span {
+  .newPass .left span {
         position: absolute;
         right: 0;
         background: #E5E5E5 0% 0% no-repeat padding-box;
@@ -196,7 +196,7 @@
         padding: 12px;
         height: 45px;
   }
-  .register .left input{
+  .newPass .left input{
       position: absolute;
       left: 4px;
       border: none;
@@ -204,14 +204,14 @@
       width: 92%;
       height: 40px;
   }
-  .register .left p{
+  .newPass .left p{
       font-size: 15px;
       color: #0049A0;
   }
-  .register .left .email span{
+  .newPass .left .email span{
       padding: 12px;
   }
-  .register .right span {
+  .newPass .right span {
     position: absolute;
     right: 0;
     background: #E5E5E5 0% 0% no-repeat padding-box;
@@ -219,7 +219,7 @@
     padding: 12px;
     height: 45px;
 }
-.register .right input{
+.newPass .right input{
   position: absolute;
   right: 4px;
   border: none;
@@ -227,20 +227,20 @@
   width: 92%;
   height: 40px;
 }
-.register .right p{
+.newPass .right p{
   font-size: 15px;
   color: #0049A0;
   text-align: end;
 }
-.register .right .email span{
+.newPass .right .email span{
   padding: 0;
 }
-.register form{
+.newPass form{
     text-align: center;
     display: inline-flex;
 }
 
-.register .regis-btn{
+.newPass .regis-btn{
     background: transparent linear-gradient(105deg, #22216D 0%, var(--unnamed-color-15ac8b) 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(105deg, #22216D 0%, #15AC8B 100%) 0% 0% no-repeat padding-box;
     color: #fff;
@@ -248,14 +248,14 @@
     font-size: 15px;
     padding: 10px 40px;
 }
-.register .border-form{
+.newPass .border-form{
     margin-top: 40px;
     margin-bottom: 80px;
     padding: 50px 30px;
     border: 1px solid #E6E6E6;
 border-radius: 30px;
 }
-  /* end register */
+  /* end newPass */
 
   /* start arr-footer */
 .arr-footer{
