@@ -52,6 +52,9 @@ body{
   .slides .main-slide{
       margin-bottom: 12%;
   }
+  .carousel-indicators{
+    display: none;
+    }
 }
 @media only screen and (max-width: 972px) {
     .slides .main-slide .h2{
@@ -89,6 +92,10 @@ body{
     .slides .main-slide{
         margin-bottom: 0%;
     }
+    .carousel-control-prev , .carousel-control-next{
+        display: none;
+    }
+    
 }
 .img-car{
     width: 100%;
@@ -185,6 +192,7 @@ z-index: 7;
 width: 18px !important;
     height: 18px !important;
 }
+
 .slides .carousel-indicators .active{
   background-color: #15AC8B !important;
 }
@@ -216,7 +224,9 @@ width: 18px !important;
     position: fixed;
     right: 85px;
     z-index: 50;
+    cursor: pointer;
 } 
+
 /* end slides */
 
 /* start we here */
@@ -2195,7 +2205,7 @@ padding: 0;
   font-weight: bold;
 }
 .name-job  p{
-  color: #C2C2C2;
+  color: #8d8787;
   font-size: 15px;
   line-height: 2;
 }
@@ -2226,7 +2236,7 @@ padding: 0;
 }
 .name-job .secright .div2 span {
   font-size: 15px;
-  color: #C2C2C2;
+  color: #8d8787;
 }
 .name-job .secright .div3{
   margin-bottom: 70px;
